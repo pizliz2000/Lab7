@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:cardCornerRadius="8dp">
+
+
+    <LinearLayout
+
+        android:layout_marginLeft="53dp"
+        android:layout_marginRight="53dp"
+        android:layout_width="300dp"
+        android:layout_height="450dp"
+
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="12dp">
+        <TextView
+            android:textSize="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product name:"/>
+
+        <TextView
+            android:textSize="20dp"
+            android:id="@+id/mainAdapterName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:textSize="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"/>
+
+
+        <TextView
+            android:textSize="20dp"
+            android:id="@+id/mainAdapterDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="@color/colorPrimaryDark"/>
+        <TextView
+            android:textSize="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Count"/>
+        <TextView
+            android:textSize="20dp"
+            android:id="@+id/mainAdapterCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Count"
+            android:textColor="@color/colorPrimaryDark"/>
+        <TextView
+            android:textSize="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price"/>
+        <TextView
+            android:textSize="20dp"
+            android:id="@+id/mainAdapterPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <Button
+            android:id="@+id/mainAdapterBuyBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="ADD TO CART" />
+
+    </LinearLayout>
+
+
+
+</FrameLayout>
